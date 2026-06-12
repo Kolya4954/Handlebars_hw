@@ -1,0 +1,32 @@
+{
+  "name": "handlebars_hw",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /Handlebars_hw/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kolya4954/Handlebars_hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kolya4954/Handlebars_hw/issues"
+  },
+  "homepage": "https://github.com/Kolya4954/Handlebars_hw#readme",
+  "dependencies": {
+    "handlebars": "^4.7.9",
+    "parcel": "^2.16.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
