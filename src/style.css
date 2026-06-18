@@ -1,0 +1,19 @@
+ul{
+    outline: 1px solid red;
+    width: 1200px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+li{
+    flex-basis: calc((100% - 60px) / 4);
+    padding: 30px;
+    outline: 1px solid gray;
+    box-shadow: 1px 1px 1px 1px;
+}

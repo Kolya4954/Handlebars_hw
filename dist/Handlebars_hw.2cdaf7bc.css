@@ -1,0 +1,20 @@
+ul {
+  outline: 1px solid red;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  outline: 1px solid gray;
+  flex-basis: calc(25% - 15px);
+  padding: 30px;
+  box-shadow: 1px 1px 1px 1px;
+}
+/*# sourceMappingURL=Handlebars_hw.2cdaf7bc.css.map */
