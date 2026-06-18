@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Kolya4954/Handlebars_hw/issues"
   },
-  "homepage": "https://github.com/Kolya4954/Handlebars_hw#readme",
+  "homepage": "https://kolya4954.github.io/Handlebars_hw/"
   "dependencies": {
     "handlebars": "^4.7.9",
     "parcel": "^2.16.4",
